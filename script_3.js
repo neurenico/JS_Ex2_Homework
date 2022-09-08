@@ -26,12 +26,11 @@ function arriba (start, end) {
         }
     }
 
+    console.log('Task 3');
     console.log('Fibonacci series');
-    console.log('--------------------------');
     console.log(fibArr);
     console.log('');
     console.log('Fibonacci series in range');
-    console.log('--------------------------');
     console.log(fibInBracket);
 }
 

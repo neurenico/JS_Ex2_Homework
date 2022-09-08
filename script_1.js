@@ -9,6 +9,8 @@ function createArray() {
         arr.push(i);
     }
 
+    console.log('Task 1');
+    console.log('Array 1');
     console.log(arr);
     console.log('');
 }
@@ -25,7 +27,9 @@ function evenValue() {
         } 
     }
 
+    console.log('Array with even values');
     console.log(newArr);
+    console.log('--------------------------');
 }
 
 evenValue();

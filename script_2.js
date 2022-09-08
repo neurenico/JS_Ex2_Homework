@@ -9,6 +9,8 @@ function createArray2() {
         arr2.push(i);
     }
 
+    console.log('Task 2');
+    console.log('Array 2');
     console.log(arr2);
     console.log('');
 }
@@ -26,8 +28,8 @@ function evenIndex() {
     }
 
     console.log('Pulled even index values');
-    console.log('--------------------------');
     console.log(newArr2);
+    console.log('--------------------------');
 }
 
 evenIndex();
