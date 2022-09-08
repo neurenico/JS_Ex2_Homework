@@ -8,14 +8,14 @@ function createArray2() {
     for (let i = 1; i <= 300; i++) {
         arr2.push(i);
     }
-
-    console.log('Task 2');
-    console.log('Array 2');
-    console.log(arr2);
-    console.log('');
 }
 
 createArray2();
+
+console.log('Task 2');
+console.log('Array 2');
+console.log(arr2);
+console.log('');
 
 //filling array with even indexes
 
@@ -26,10 +26,10 @@ function evenIndex() {
             newArr2.push(arr2[i]);
         } 
     }
-
-    console.log('Pulled even index values');
-    console.log(newArr2);
-    console.log('--------------------------');
 }
 
 evenIndex();
+
+console.log('Pulled even index values');
+console.log(newArr2);
+console.log('--------------------------');

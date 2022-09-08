@@ -1,9 +1,9 @@
 // fibonacci series
 
-const fibArr = [0],
-    fibInBracket = [];
 
 function arriba (start, end) {
+    const fibArr = [0],
+    fibInBracket = [];
 
     for (let i = 0; i < end; i++) {
         
@@ -25,15 +25,18 @@ function arriba (start, end) {
             break;
         }
     }
-
-    console.log('Task 3');
-    console.log('Fibonacci series');
-    console.log(fibArr);
-    console.log('');
-    console.log('Fibonacci series in range');
-    console.log(fibInBracket);
+    return {fibArr: fibArr, fibInBracket: fibInBracket};
 }
 
-arriba (120,1200);
+const resultFIbModifying = arriba(120,1200);
+const resultFIbModifying2 = arriba(120,1200);
 
+
+console.log('Task 3');
+console.log('Fibonacci series');
+console.log(resultFIbModifying.fibArr);
+console.log('');
+console.log('Fibonacci series in range');
+console.log(resultFIbModifying.fibInBracket);
+console.log(resultFIbModifying2.fibInBracket);
 
